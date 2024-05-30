@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Caspian Global Avto</title>
+        <link rel="stylesheet" href="/styles/main.css" />
+        <link rel="stylesheet" href="/styles/mobile-nav.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        <link
+            rel="shortcut icon"
+            href="./assets/img/logo/CGA only logo.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav">
+                    <div class="logo">
+                        <a href="/" class="logo" a
+                            ><img
+                                src="./assets/img/logo/CGA horizontal logo.png"
+                                alt=""
+                        /></a>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-list__item">
+                            <a href="#" class="nav-list__link">Home</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="catalog.html" class="nav-list__link"
+                                >Catalog</a
+                            >
+                        </li>
+                        <li class="nav-list__item">
+                            <a href="login.html" class="nav-list__link"
+                                ><i class="fa-solid fa-user"></i> Login</a
+                            >
+                        </li>
+                    </ul>
+                    <button class="mobile-nav__btn" id="modalOpen">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="mobile-nav__btn hidden" id="modalClose">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <!-- Moile Nav -->
+        <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+        <div class="mobile-nav" id="mobileNav">
+            <ul class="mobile-nav__list">
+                <li class="mobile-nav__item">
+                    <a href="#" class="mobile-nav__link">Home</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="catalog.html" class="mobile-nav__link">Catalog</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="login.html" class="mobile-nav__link"
+                        ><i class="fa-solid fa-user"></i> Login</a
+                    >
+                </li>
+            </ul>
+        </div>
+        <!-- / Moile Nav -->
+        <main>
+            <section class="search">
+                <div class="container">
+                    <h1>Find Your Dream Car</h1>
+                    <form id="search-form">
+                        <input
+                            type="text"
+                            placeholder="Search by make, model, or keyword"
+                        />
+                        <div class="search-form-box">
+                            <select>
+                                <option value="">All Makes</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Mercedes">Mercedes</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="KIA">KIA</option>
+                                <option value="BMW">Hyundai</option>
+                            </select>
+                            <select>
+                                <option value="">All Models</option>
+                            </select>
+                        </div>
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <h2 class="section__title">VIP Salon Advertisements</h2>
+                    <div class="car-list">
+                        <!-- Car items will be injected here -->
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">VIP-Advertisements</h2>
+                        <a href="#">All VIP-Advertisements</a>
+                    </div>
+                    <div class="car-list">
+                        <!-- Car items will be injected here -->
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container">
+                    <h2 class="section__title">Advertisements</h2>
+                    <div class="section__sort-box">
+                        <span>Sort by: </span>
+                        <select name="" id="">
+                            <option value="">By date</option>
+                            <option value="">By mileage</option>
+                            <option value="">By year</option>
+                            <option value="">With the cheapest</option>
+                            <option value="">With the most expensive</option>
+                        </select>
+                    </div>
+                    <div class="car-list">
+                        <!-- Car items will be injected here -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="pages">
+                        <ul class="pages__list">
+                            <li><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href="">4</a></li>
+                            <li><a href="">5</a></li>
+                            <li><a href="">...</a></li>
+                            <li><a href="">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__logo">
+                        <a href="/">
+                            <img
+                                src="./assets/img/logo/CGA logo vertical.png"
+                                alt=""
+                                width="100"
+                            />
+                        </a>
+                    </div>
+                    <div class="footer__info">
+                        <div class="footer__social">
+                            <a href="/"
+                                ><i class="fa-brands fa-facebook link-icon"></i
+                            ></a>
+                            <a href="/"
+                                ><i class="fa-brands fa-instagram link-icon"></i
+                            ></a>
+                            <a href="mailto:caspiangolabal@avto.az"
+                                ><i class="fa-solid fa-envelope link-icon"></i>
+                                <span class="footer__link-text"
+                                    >caspiangolabal@avto.az</span
+                                ></a
+                            >
+                            <a href="tel:+994123456789"
+                                ><i class="fa-solid fa-phone link-icon"></i>
+                                <span class="footer__link-text"
+                                    >(012)-345-67-89</span
+                                ></a
+                            >
+                        </div>
+                        <p class="copyright">
+                            &copy; 2024 Caspian Global Avto. All rights
+                            reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="js/mobile-nav.js"></script>
+    </body>
+</html>

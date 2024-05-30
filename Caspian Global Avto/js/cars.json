@@ -1,0 +1,142 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": "$20,000",
+        "image": "./assets/img/cars/Toyota Corolla.jpg"
+    },
+    {
+        "make": "BMW",
+        "model": "X5",
+        "year": 2019,
+        "price": "$40,000",
+        "image": "./assets/img/cars/BMW X5.jpg"
+    },
+    {
+        "make": "Mercedes",
+        "model": "C-Class",
+        "year": 2021,
+        "price": "$35,000",
+        "image": "./assets/img/cars/Mercedes C-Class.jpg"
+    },
+    {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2020,
+        "price": "$25,000",
+        "image": "./assets/img/cars/Hyundai Elantra.jpg"
+    },
+    {
+        "make": "Kia",
+        "model": "Forte",
+        "year": 2024,
+        "price": "$22,000",
+        "image": "./assets/img/cars/Kia Forte.jpg"
+    },
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": "$20,000",
+        "image": "./assets/img/cars/Toyota Corolla.jpg"
+    },
+    {
+        "make": "BMW",
+        "model": "X5",
+        "year": 2019,
+        "price": "$40,000",
+        "image": "./assets/img/cars/BMW X5.jpg"
+    },
+    {
+        "make": "Mercedes",
+        "model": "C-Class",
+        "year": 2021,
+        "price": "$35,000",
+        "image": "./assets/img/cars/Mercedes C-Class.jpg"
+    },
+    {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2020,
+        "price": "$25,000",
+        "image": "./assets/img/cars/Hyundai Elantra.jpg"
+    },
+    {
+        "make": "Kia",
+        "model": "Forte",
+        "year": 2024,
+        "price": "$22,000",
+        "image": "./assets/img/cars/Kia Forte.jpg"
+    },
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": "$20,000",
+        "image": "./assets/img/cars/Toyota Corolla.jpg"
+    },
+    {
+        "make": "BMW",
+        "model": "X5",
+        "year": 2019,
+        "price": "$40,000",
+        "image": "./assets/img/cars/BMW X5.jpg"
+    },
+    {
+        "make": "Mercedes",
+        "model": "C-Class",
+        "year": 2021,
+        "price": "$35,000",
+        "image": "./assets/img/cars/Mercedes C-Class.jpg"
+    },
+    {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2020,
+        "price": "$25,000",
+        "image": "./assets/img/cars/Hyundai Elantra.jpg"
+    },
+    {
+        "make": "Kia",
+        "model": "Forte",
+        "year": 2024,
+        "price": "$22,000",
+        "image": "./assets/img/cars/Kia Forte.jpg"
+    },
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "price": "$20,000",
+        "image": "./assets/img/cars/Toyota Corolla.jpg"
+    },
+    {
+        "make": "BMW",
+        "model": "X5",
+        "year": 2019,
+        "price": "$40,000",
+        "image": "./assets/img/cars/BMW X5.jpg"
+    },
+    {
+        "make": "Mercedes",
+        "model": "C-Class",
+        "year": 2021,
+        "price": "$35,000",
+        "image": "./assets/img/cars/Mercedes C-Class.jpg"
+    },
+    {
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2020,
+        "price": "$25,000",
+        "image": "./assets/img/cars/Hyundai Elantra.jpg"
+    },
+    {
+        "make": "Kia",
+        "model": "Forte",
+        "year": 2024,
+        "price": "$22,000",
+        "image": "./assets/img/cars/Kia Forte.jpg"
+    }
+]
